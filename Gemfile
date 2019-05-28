@@ -47,6 +47,8 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # THE testing framework
   gem 'rspec-rails'
+  # Better console
+  gem 'pry'
 end
 
 group :development do
